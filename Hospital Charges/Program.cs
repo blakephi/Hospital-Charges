@@ -45,6 +45,11 @@ namespace Hospital_Charges
                 System.Console.WriteLine("Total miscellaneous charges: $" + CalcMiscCharges(medCharges, surgicalCharges,
                                                                             labFees, rehabCharges));
             }
+            else if (option == 3)
+            {
+                System.Console.WriteLine("Total overall charges: $" + CalcTotalCharges(dailyCharge, daysIn, medCharges,
+                                                                      surgicalCharges, labFees, rehabCharges));
+            }
         }
 
         public static int CalcStayCharges (int daily, int days)
