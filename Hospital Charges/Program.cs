@@ -29,7 +29,11 @@ namespace Hospital_Charges
             System.Console.WriteLine("Total physical rehab charges: ");
             rehabCharges = Convert.ToInt32(Console.ReadLine());
 
-
+            System.Console.WriteLine("\nUsing the information you inputted, what would you like to do?");
+            System.Console.WriteLine("1. Calculate total base charges for the hospital stay");
+            System.Console.WriteLine("2. Calculate total miscellaneous (medication, surgical, lab and rehab) charges");
+            System.Console.WriteLine("3. Calculate total charges including the base and miscellaneous charges");
+            System.Console.WriteLine("4. List results from all of the above");
         }
 
         public static int CalcStayCharges (int daily, int days)
