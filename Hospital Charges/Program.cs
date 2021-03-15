@@ -10,7 +10,11 @@ namespace Hospital_Charges
     {
         static void Main(string[] args)
         {
-
+            int daysIn;
+            int medCharges;
+            int surgicalCharges;
+            int labFees;
+            int rehabCharges;
         }
     }
 }
