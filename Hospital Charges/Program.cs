@@ -40,6 +40,11 @@ namespace Hospital_Charges
             {
                 System.Console.WriteLine("Base stay charges: $" + CalcStayCharges(dailyCharge, daysIn));
             }
+            else if (option == 2)
+            {
+                System.Console.WriteLine("Total miscellaneous charges: $" + CalcMiscCharges(medCharges, surgicalCharges,
+                                                                            labFees, rehabCharges));
+            }
         }
 
         public static int CalcStayCharges (int daily, int days)
