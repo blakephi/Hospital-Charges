@@ -38,21 +38,21 @@ namespace Hospital_Charges
 
             if (option == 1)
             {
-                System.Console.WriteLine("Base stay charges: $" + CalcStayCharges(dailyCharge, daysIn));
+                System.Console.WriteLine("\nBase stay charges: $" + CalcStayCharges(dailyCharge, daysIn));
             }
             else if (option == 2)
             {
-                System.Console.WriteLine("Total miscellaneous charges: $" + CalcMiscCharges(medCharges, surgicalCharges,
+                System.Console.WriteLine("\nTotal miscellaneous charges: $" + CalcMiscCharges(medCharges, surgicalCharges,
                                                                             labFees, rehabCharges));
             }
             else if (option == 3)
             {
-                System.Console.WriteLine("Total overall charges: $" + CalcTotalCharges(dailyCharge, daysIn, medCharges,
+                System.Console.WriteLine("\nTotal overall charges: $" + CalcTotalCharges(dailyCharge, daysIn, medCharges,
                                                                       surgicalCharges, labFees, rehabCharges));
             }
             else if (option == 4)
             {
-                System.Console.WriteLine("Base stay charges: $" + CalcStayCharges(dailyCharge, daysIn));
+                System.Console.WriteLine("\nBase stay charges: $" + CalcStayCharges(dailyCharge, daysIn));
                 System.Console.WriteLine("Total miscellaneous charges: $" + CalcMiscCharges(medCharges, surgicalCharges,
                                                                             labFees, rehabCharges));
                 System.Console.WriteLine("Total overall charges: $" + CalcTotalCharges(dailyCharge, daysIn, medCharges,
