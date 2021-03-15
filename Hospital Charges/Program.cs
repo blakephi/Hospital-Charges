@@ -28,6 +28,8 @@ namespace Hospital_Charges
             labFees = Convert.ToInt32(Console.ReadLine());
             System.Console.WriteLine("Total physical rehab charges: ");
             rehabCharges = Convert.ToInt32(Console.ReadLine());
+
+
         }
 
         public static int CalcStayCharges (int daily, int days)
@@ -38,5 +40,12 @@ namespace Hospital_Charges
 
             return stayCharges;
         }
+
+        public static int CalcMiscCharges (int meds, int surgical, int lab, int rehab)
+        {
+            int miscCharges = 0;
+            return miscCharges;
+        }
+
     }
 }
