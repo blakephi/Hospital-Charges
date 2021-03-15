@@ -10,7 +10,12 @@ namespace Hospital_Charges
     {
         static void Main(string[] args)
         {
-
+            const int dailyCharge = 350;            
+            int daysIn;
+            int medCharges;
+            int surgicalCharges;
+            int labFees;
+            int rehabCharges;
         }
     }
 }
