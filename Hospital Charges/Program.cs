@@ -44,6 +44,9 @@ namespace Hospital_Charges
         public static int CalcMiscCharges (int meds, int surgical, int lab, int rehab)
         {
             int miscCharges = 0;
+
+            miscCharges = meds + surgical + lab + rehab;
+
             return miscCharges;
         }
 
