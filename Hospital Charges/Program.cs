@@ -50,9 +50,12 @@ namespace Hospital_Charges
             return miscCharges;
         }
 
-        public static int CalcTotalCharges (int stay, int misc)
+        public static int CalcTotalCharges (int daily, int days, int meds, int surgical, int lab, int rehab)
         {
             int totalCharges = 0;
+
+            totalCharges = CalcStayCharges(daily, days) + CalcMiscCharges(meds, surgical, lab, rehab);
+
             return totalCharges;
         }
     }
