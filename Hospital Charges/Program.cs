@@ -47,5 +47,10 @@ namespace Hospital_Charges
             return miscCharges;
         }
 
+        public static int CalcTotalCharges (int stay, int misc)
+        {
+            int totalCharges = 0;
+            return totalCharges;
+        }
     }
 }
