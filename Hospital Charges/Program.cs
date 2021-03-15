@@ -18,22 +18,22 @@ namespace Hospital_Charges
             int rehabCharges;
 
             System.Console.WriteLine("Please enter the following information for your hospital stay.");
-            System.Console.WriteLine("Number of days spent in the hospital: ");
+            System.Console.WriteLine("\nNumber of days spent in the hospital: ");
             daysIn = Convert.ToInt32(Console.ReadLine());
-            System.Console.Write("Total charges for medicine: ");
+            System.Console.Write("Total charges for medicine: $");
             medCharges = Convert.ToInt32(Console.ReadLine());
-            System.Console.Write("\nTotal surgical charges: ");
+            System.Console.Write("Total surgical charges: $");
             surgicalCharges = Convert.ToInt32(Console.ReadLine());
-            System.Console.Write("\nTotal lab fees: ");
+            System.Console.Write("Total lab fees: $");
             labFees = Convert.ToInt32(Console.ReadLine());
-            System.Console.Write("\nTotal physical rehab charges: ");
+            System.Console.Write("Total physical rehab charges: $");
             rehabCharges = Convert.ToInt32(Console.ReadLine());
 
             System.Console.WriteLine("\nUsing the information you input, what would you like to do?");
             System.Console.WriteLine("1. Calculate total base charges for the hospital stay");
             System.Console.WriteLine("2. Calculate total miscellaneous (medication, surgical, lab and rehab) charges");
             System.Console.WriteLine("3. Calculate total charges including the base and miscellaneous charges");
-            System.Console.Write("4. List results from all of the above");
+            System.Console.WriteLine("4. List results from all of the above");
             int option = Convert.ToInt32(Console.ReadLine());
 
             if (option == 1)
