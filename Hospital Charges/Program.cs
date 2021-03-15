@@ -21,6 +21,9 @@ namespace Hospital_Charges
         public static int CalcStayCharges (int daily, int days)
         {
             int stayCharges = 0;
+
+            stayCharges = daily * days;
+
             return stayCharges;
         }
     }
