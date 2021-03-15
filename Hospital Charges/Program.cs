@@ -18,7 +18,7 @@ namespace Hospital_Charges
             int rehabCharges;
 
             System.Console.WriteLine("Please enter the following information for your hospital stay.");
-            System.Console.WriteLine("\nNumber of days spent in the hospital: ");
+            System.Console.Write("\nNumber of days spent in the hospital: ");
             daysIn = Convert.ToInt32(Console.ReadLine());
             System.Console.Write("Total charges for medicine: $");
             medCharges = Convert.ToInt32(Console.ReadLine());
