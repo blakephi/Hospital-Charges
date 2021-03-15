@@ -34,6 +34,12 @@ namespace Hospital_Charges
             System.Console.WriteLine("2. Calculate total miscellaneous (medication, surgical, lab and rehab) charges");
             System.Console.WriteLine("3. Calculate total charges including the base and miscellaneous charges");
             System.Console.WriteLine("4. List results from all of the above");
+            int option = Convert.ToInt32(Console.ReadLine());
+
+            if (option == 1)
+            {
+                System.Console.WriteLine("Base stay charges: $" + CalcStayCharges(dailyCharge, daysIn));
+            }
         }
 
         public static int CalcStayCharges (int daily, int days)
