@@ -17,5 +17,11 @@ namespace Hospital_Charges
             int labFees;
             int rehabCharges;
         }
+
+        public static int CalcStayCharges (int daily, int days)
+        {
+            int stayCharges = 0;
+            return stayCharges;
+        }
     }
 }
